@@ -1,88 +1,41 @@
-/*css styles here*/
+/* -------------------------------------
+CSS reset
+(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
 
-body,
-input,
-label,
-button {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-}
-
-body {
-    width: 980px;
-    margin: 0 auto;
-}
-
-h1,
-h3 {
-    font-weight: normal;
-    text-align: center;
-}
-
-h3 {
-    border-bottom: 3px solid black;
-    padding: 5px;
+* {
     margin: 0;
-    margin-bottom: 25px;
-}
-
-input {
-    font-size: 16px;
-}
-
-.borderDiv {
-    border: 3px solid black;
-    margin-top: 10px;
-    padding-bottom: 25px;
-}
-
-.leftSide {
-    float: left;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
     box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
 }
 
-.rightSide {
-    float: left;
-    width: 40%;
-    margin-right: 5%;
-    margin-right: 5%;
-    box-sizing: border-box;
+.container {
+    max-width: 500px;
 }
 
-.error {
-    color: red;
-    text-align: center;
-    margin-top: 15px
+.nav ul {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-label {
-    width: 160px;
-    text-align: right;
+.nav ul li {
+    width: 32%;
     display: inline-block;
-    padding: 15px;
-}
-
-.inputButtons {
-    margin: 25px auto;
-    text-align: center;
-}
-
-button {
-    padding: 10px;
-    background: white;
-    border: 3px solid black;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background: #ddd;
-}
-
-#resetButton {
-    position: absolute;
-    bottom: 25px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 3px solid gray;
 }

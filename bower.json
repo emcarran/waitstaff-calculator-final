@@ -1,0 +1,17 @@
+{
+  "name": "waitstaff-calculator",
+  "homepage": "https://github.com/emcarran/waitstaff-calculator-final",
+  "authors": [
+    "Elizabeth Carranza <elizabeth.m.carranza@gmail.com>"
+  ],
+  "description": "adding routes",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
