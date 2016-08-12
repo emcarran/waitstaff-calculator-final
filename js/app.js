@@ -1,4 +1,4 @@
-var app = angular.module('waitStaff', ['ngRoute']);
+var app = angular.module('waitStaff', ['ngRoute', 'ngAnimate']);
 
 
 //inject a $routeProvide and use it to set URL routing rules
